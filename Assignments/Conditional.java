@@ -101,18 +101,61 @@ import java.util.Scanner;
     }
 } */
 
-class Conditional{
+/* class Conditional{
     public static void main(String args[]){
        Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        if(a>b){
+        if(a>b && a>c){
            System.out.println("A is greater"); 
         }
-        else if(){
+        else if(b>a && b>c){
+            System.out.println("B is greater");
+        }
+        else{
+            System.out.println("C is greater");
+        }
+    }
+} */
+
+/* class Conditional{
+    public static void main(String args[]){
+       Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        if(a<b && a<c){
+           System.out.println("A is least"); 
+        }
+        else if(b<a && b<c){
             System.out.println("B is least");
         }
+        else{
+            System.out.println("C is least");
+        }
+    }
+} */
+
+class Conditional{
+    public static void main(String args[]){
+       Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int temp;
+        if(a<b){
+            temp = a;
+            a=b;
+            b=temp;
+            }
+
+        if(b<c){
+            temp = a;
+            a=b;
+            b=temp;
+            }
     }
 }
