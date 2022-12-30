@@ -134,7 +134,7 @@
     }
  } */
 
- class While{
+ /* class While{
     public static void main(String args[]){
         int i=1;
         while(i<=10){
@@ -142,4 +142,19 @@
             i++;
         }
     }
- }
+ } */
+
+ class While{
+    public static void main(String args[]){
+        int factor = 24;
+        int i , count = 0;
+
+        for(i=1; i<=factor; i++){
+            if(factor % i == 0){
+                count = count+1;
+                System.out.println(i);
+            }
+        }
+       System.out.print("\nTotal factors of"  + factor + " : " + count);
+    }
+ } 
