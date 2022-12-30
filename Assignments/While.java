@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /* class While{
     public static void main(String args[]){
         int i=1;
@@ -144,7 +145,7 @@
     }
  } */
 
- class While{
+ /* class While{
     public static void main(String args[]){
         int factor = 24;
         int i , count = 0;
@@ -157,4 +158,64 @@
         }
        System.out.print("\nTotal factors of"  + factor + " : " + count);
     }
- } 
+ }  */
+
+ /* class While{
+    public static void main(String args[]){
+        int num = 187 ,reversed =0;
+        while(num != 0){
+            int rem = num% 10;
+            reversed = reversed*10 + rem;
+            num/=10;
+        }
+        System.out.println(reversed);
+    }
+ } */
+
+ /* class While{
+    public static void main(String args[]){
+        int[] a = {2,4,5,7,8};
+        
+
+        for(int i=0;i<=a.length;i++){
+            if(a[i] % 2==0){
+                System.out.println(a[i]);
+            }
+        }
+    }
+ } */
+
+/*  class While{
+    public static void main(String args[]){
+
+        Scanner sc=new Scanner(System.in);
+        int num = sc.nextInt();
+        int a = 0;
+        int b = 1;
+        int c=0;
+        for(int i=1;i<=num;i++){
+
+            c = a+b;
+            System.out.println(c);
+            a =b;
+            b=c;
+        }
+    }
+ } */
+
+  class While{
+    public static void main(String args[]){
+        int num = 17;
+        int a = 0;
+        int b = 1;
+        int c=0;
+
+            while(a <= num){
+                System.out.println(a + " ");
+            c = a+b;
+            a = b;
+            b = c;
+            }
+            
+    }
+ }
