@@ -1,4 +1,4 @@
-class Prime{
+/* class Prime{
     public static void main(String args[]){
         int num=6,i=2;
         boolean flag = false;
@@ -17,5 +17,12 @@ class Prime{
             else{
              System.out.println("Not Prime");   
             }
+    }
+} */
+
+class Prime{
+    public static void main(String args[]){
+        
+        
     }
 }
