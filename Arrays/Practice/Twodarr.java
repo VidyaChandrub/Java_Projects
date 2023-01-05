@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Twodarr{
     public static void main(String args[]){
 
@@ -13,10 +14,16 @@ class Twodarr{
             }
         }
 
+        int x = sc.nextInt();
+
         for(int i=0; i<rows; i++){
             for(int j=0; j<cols; j++){
-                System.out.println(matrix[i])
+                if(matrix[i][j] == x){
+                    System.out.println(x + " is found at "+ i + " , " + j);
+                }
+                
             }
+            
         }
     }
 }
