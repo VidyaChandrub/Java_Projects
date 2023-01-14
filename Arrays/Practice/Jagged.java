@@ -22,5 +22,8 @@ class Jagged{
             System.out.println("");
         }
 
+        Class c = arr.getClass();
+        String name = c.getName();
+        System.out.println(name);
     }
 }
