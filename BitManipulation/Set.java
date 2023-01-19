@@ -5,15 +5,11 @@ operation - OR */
 class Set{
     public static void main(String args[]){
         int num = 5;
-        int position = 3;
+        int position = 1;
 
         int  bitMask = 1 << position;
+        int newNum = bitMask | num;
 
-        if((bitMask | num) == 0){
-            System.out.println("Set to zero");
-        }
-        else {
-             System.out.println("Set to one");
-        }
+        System.out.println(newNum);
     }
 }
