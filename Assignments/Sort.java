@@ -1,5 +1,5 @@
 import java.util.Arrays;   
-public class SortArrayExample1  
+public class Sort 
 {   
 public static void main(String[] args)   
 {   

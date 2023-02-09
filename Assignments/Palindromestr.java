@@ -1,4 +1,4 @@
-class Palindromestr{
+/* class Palindromestr{
     public static void main(String args[]){
 
         String str = "Radar", reversed="";
@@ -18,4 +18,4 @@ class Palindromestr{
             System.out.println("Not palindrome");
         }
     }
-}
+} */
