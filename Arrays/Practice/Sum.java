@@ -12,7 +12,7 @@ public class Sum{
 
         int arrLength = arr.length;
 
-        average = (double)sum + (double)arrLength;
+        average = (double)sum / (double)arrLength;
 
         System.out.println("Sum is :" + sum);
         System.out.println("Average is :" + average);
